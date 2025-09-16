@@ -1,0 +1,108 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  color: #fafafa;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Hero Section */
+#hero-section .hero-img {
+  background-image: url("assets/img/hero.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+}
+
+#hero-section .pfp {
+  position: relative;
+  padding: 20%;
+  color: white;
+}
+
+#hero-section .pfp img {
+  border-radius: 90%;
+}
+
+#hero-section .pfp h1 {
+  margin-top: 40px;
+}
+
+/* Meet me Section */
+#meet-me-section {
+  background-color: #344955;
+  padding: 20px 0;
+}
+
+#meet-me-section h1 {
+  padding-top: 35px;
+}
+
+#meet-me-text {
+  margin-top: 10%;
+}
+
+/* Carousel section */
+
+#carousel-section h1 {
+  background-color: #2b3036;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+}
+
+/* Skills section */
+#skills-section {
+  background-color: #50727B;
+  padding: 5px;
+  margin: 0px;
+}
+
+#skills-section .skills {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#skills-section i {
+  font-size: 100px;
+}
+
+#skills-section p {
+  color: #3c3d49;
+}
+
+/* Contact section */
+#contact-section {
+  background-color: #78A083;
+  padding-bottom: 30px;
+}
+
+#contact-section i {
+  font-size: 100px;
+}
+
+#contact-section a:not(active) {
+  color: #fafafa;
+}
+
+#contact-section a:hover {
+  color: #1578a2;
+}
+
+/* Footer */
+#footer-section {
+  background-color: #2c2e3f;
+  padding: 30px 0px;
+}
+
+/* Easter Egg */
+#hero-section a:not(active) {
+  color: #fafafa;
+  text-decoration: none;
+  font-style: italic;
+}
